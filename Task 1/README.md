@@ -238,7 +238,7 @@ Real-time tracking of the following metrics across all epochs:
 - Top-3 accuracy (training and validation)
 - Learning rate at each epoch
 
-Saved to: `training_history_20260207_200712.json`
+Saved to: `Task 1/dependables/training_history_20260207_200712.json`
 
 ### Final Outputs
 
