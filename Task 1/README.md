@@ -238,7 +238,7 @@ Real-time tracking of the following metrics across all epochs:
 - Top-3 accuracy (training and validation)
 - Learning rate at each epoch
 
-Saved to: `Task 1/dependables/training_history_20260207_200712.json`
+Saved to: `training_history_20260207_200712.json`
 
 ### Final Outputs
 
@@ -256,7 +256,7 @@ Saved to: `Task 1/dependables/training_history_20260207_200712.json`
 
 **Training History Plot**:
 
-![Training History](training_history_optimized.png)
+![Training History](dependables/training_history_optimized.png)
 
 Three-panel visualization showing:
 1. **Model Accuracy**: Training vs validation accuracy over 150 epochs
@@ -267,7 +267,7 @@ The plots demonstrate successful model convergence with training accuracy reachi
 
 **Confusion Matrix**:
 
-![Confusion Matrix](confusion_matrix_optimized.png)
+![Confusion Matrix](dependables/confusion_matrix_optimized.png)
 
 Normalized confusion matrix showing classification performance across all seven classes. The matrix reveals:
 - Perfect classification for most classes (100% diagonal values)
@@ -277,7 +277,7 @@ Normalized confusion matrix showing classification performance across all seven 
 
 **Per-Class Performance Metrics**:
 
-![Per-Class Metrics](per_class_metrics_optimized.png)
+![Per-Class Metrics](dependables/per_class_metrics_optimized.png)
 
 Three-panel bar chart displaying precision, recall, and F1-score for each class:
 
