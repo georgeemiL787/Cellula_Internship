@@ -15,7 +15,7 @@ This repository contains my work and learning journey during my computer vision 
 
 ## Status
 
-🌱 Currently learning and experimenting
+ Currently learning and experimenting
 
 ---
 
