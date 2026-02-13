@@ -1,0 +1,83 @@
+# =============================================================================
+# .dockerignore - Exclude files from Docker build context
+# =============================================================================
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+docs/
+
+# Testing
+tests/
+test_*.py
+*_test.py
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks (not needed in production)
+*.ipynb
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (prevent recursive builds)
+Dockerfile*
+docker-compose*.yml
+.docker/
+
+# Environment files (use secrets management instead)
+.env
+.env.*
+*.local
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Diagnostic and debug scripts (not needed in production)
+diagnostic*.py
+
+# Model checkpoints (exclude training artifacts, keep final model)
+# Note: The final model file teeth_transfer_learning_final_v1.keras is needed
+*.h5
+checkpoint/
+*.ckpt*
+
+# Large datasets not needed for inference
+data/
+datasets/
+*.zip
+*.tar.gz
